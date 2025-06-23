@@ -20,9 +20,9 @@ The ISP uses 192.168.0.x for their needs and just for ease of use and minimisati
 
 | Device         | IP Address     | MAC Address     | Purpose                          |
 |----------------|----------------|------------------|----------------------------------|
-| Raspberry Pi   | 192.168.0.2    | xx:xx:xx:xx:xx:xx | Old homelab → future DNS server |
-| My PC          | 192.168.0.3    | xx:xx:xx:xx:xx:xx | My usual rig                     |
-| AOOSTAR NAS    | 192.168.0.4    | xx:xx:xx:xx:xx:xx | Main home server                 |
+| Raspberry Pi   | 192.168.10.2    | xx:xx:xx:xx:xx:xx | Old homelab → future DNS server |
+| My PC          | 192.168.10.3    | xx:xx:xx:xx:xx:xx | My usual rig                     |
+| AOOSTAR NAS    | 192.168.10.4    | xx:xx:xx:xx:xx:xx | Main home server                 |
 
 
 
