@@ -24,6 +24,19 @@ The ISP uses 192.168.0.x for their needs and just for ease of use and minimisati
 | My PC          | 192.168.10.3    | xx:xx:xx:xx:xx:xx | My usual rig                     |
 | AOOSTAR NAS    | 192.168.10.4    | xx:xx:xx:xx:xx:xx | Main home server                 |
 
+The plan is to divide the network into this structure which is generic then customise later to my liking
+
+| Range                     | Purpose                                                  |
+| ------------------------- | -------------------------------------------------------- |
+| `192.168.10.1`            | Your router/gateway                                      |
+| `192.168.10.2 – 10.19`    | Core infrastructure (Proxmox host, NAS, DNS, controller) |
+| `192.168.10.20 – 10.49`   | LXC containers                                           |
+| `192.168.10.50 – 10.79`   | VMs (apps, services, dashboards)                         |
+| `192.168.10.80 – 10.99`   | Dev/test VMs or staging                                  |
+| `192.168.10.100 – 10.199` | DHCP range for general use                               |
+| `192.168.10.200 – 10.254` | Reserved (e.g., VLAN gateways, future firewall, VPNs)    |
+
+
 
 
 
