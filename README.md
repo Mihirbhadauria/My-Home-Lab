@@ -36,7 +36,13 @@ The plan is to divide the network into this structure which is generic then cust
 | `192.168.10.100 – 10.199` | DHCP range for general use                               |
 | `192.168.10.200 – 10.254` | Reserved (e.g., VLAN gateways, future firewall, VPNs)    |
 
+# Media Server Stack #
 
+I am re-setting up the arr stack with portainer and wireguard vpn. I had this working in my raspberry pi however it was disorganised and not documented well.
+
+I initally had faced issues with getting SMB set up on my ubuntu vm which hosted plex. Today I broke that and successfully got plex reading from SMB file share. The intent is that if the Ryzen 7 5825u is sufficent for single user transcoding. 
+
+So far it is ok but with further testing I will validate as this will lead me to setting up an N100 nuc as the transcoding engine/compute and also explore some HA options
 
 
 
