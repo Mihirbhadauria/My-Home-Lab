@@ -23,6 +23,10 @@ The ISP uses 192.168.0.x for their needs and just for ease of use and minimisati
 | Raspberry Pi   | 192.168.10.2    | xx:xx:xx:xx:xx:xx | Old homelab → future DNS server |
 | My PC          | 192.168.10.3    | xx:xx:xx:xx:xx:xx | My usual rig                     |
 | AOOSTAR NAS    | 192.168.10.4    | xx:xx:xx:xx:xx:xx | Main home server                 |
+| TrueNas        | 192.168.10.5    | xx:xx:xx:xx:xx:xx | NAS Operating System. Use ZFS filesystem |
+| Debian OS      | 192.168.10.9    | xx:xx:xx:xx:xx:xx | Hosting media server (Arr stack, Plex) |
+
+
 
 The plan is to divide the network into this structure which is generic then customise later to my liking
 
