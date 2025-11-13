@@ -48,5 +48,15 @@ I initally had faced issues with getting SMB set up on my ubuntu vm which hosted
 
 So far it is ok but with further testing I will validate as this will lead me to setting up an N100 nuc as the transcoding engine/compute and also explore some HA options
 
+I have also now intergrated oversearr and it is an amazing edition for request management for users and it can be utilised quite easily by a simple android TV as I did with my Sony XL90. 
+
+# Virtial Private Network (VPN) #
+
+I previously used wireguard and installed that which was a bit of a pain initally until I discovered WG easy which made life ironically a bit easier but this time I thought to test with tailscale as I have heard much about it.
+
+Under the hood it still uses wireguard however it naturally it kind of split tunnels (nerds don't kill me). It's not proper split tunneling but it diverts traffic smartly and I can feel the difference straight away compared to my previous installation of wireguard which was very slow! but we also had a boost in double upload speed thanks to NBN (went from 1000/50 to 1000/100)
+
+
+
 
 
