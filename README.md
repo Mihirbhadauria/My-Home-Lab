@@ -56,7 +56,17 @@ I previously used wireguard and installed that which was a bit of a pain initall
 
 Under the hood it still uses wireguard however it naturally it kind of split tunnels (nerds don't kill me). It's not proper split tunneling but it diverts traffic smartly and I can feel the difference straight away compared to my previous installation of wireguard which was very slow! but we also had a boost in double upload speed thanks to NBN (went from 1000/50 to 1000/100)
 
+# Tracking uptime and health #
 
+I have been experiencing some dropouts on my internet which has left me annoyed! to evaluate the issue I installed uptime kuma 
+
+<img width="890" height="280" alt="image" src="https://github.com/user-attachments/assets/bf853c03-bdbb-4752-a685-57aadbd44d7d" />
+
+I am ping every 20 seconds my modem and google. I believed my modem is powercycling as I could not access intranet services. 
+
+Interestingly this could be a fun issue to explore as I had replaced this modem with another but was still having issues but with this I should be able to diagnose what is at fault.
+
+Moving forward I will be enhancing this and placing many of my services on this tracker especailly when I have my own enterprise and APIs
 
 
 
